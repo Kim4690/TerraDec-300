@@ -39,13 +39,13 @@
       .td1{
         top:80px;
         font-size:26px;
-        animation:t1 8s infinite;
+        animation:t1 10s infinite;
       }
 
       .td2{
         top:110px;
         font-size:26px;
-        animation:t2 8s infinite;
+        animation:t2 10s infinite;
       }
 
       .td-line{
