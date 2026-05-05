@@ -104,7 +104,7 @@
         );
         transform:skewX(-20deg);
         opacity:0;
-        animation:shine 8s infinite;
+        animation:shine 10s infinite;
       }
 
       /* TEXT ANIMATION */
