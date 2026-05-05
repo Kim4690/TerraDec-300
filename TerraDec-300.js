@@ -68,13 +68,13 @@
 
       .td-logo{
         position:absolute;
-        right:8px;
+        right:20px;
         bottom:3px;
         width:80px;
       }
 
       .td-logo img{
-        width:150%;
+        width:200%;
         display:block;
       }
 
