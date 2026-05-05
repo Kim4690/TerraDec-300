@@ -39,13 +39,13 @@
       .td1{
         top:80px;
         font-size:26px;
-        animation:t1 10s infinite;
+        animation:t1 8s infinite;
       }
 
       .td2{
         top:110px;
         font-size:26px;
-        animation:t2 10s infinite;
+        animation:t2 8s infinite;
       }
 
       .td-line{
@@ -72,7 +72,7 @@
         opacity:0;
         transform:scale(3);
         transform-origin:left center;
-        animation:terra 10s cubic-bezier(.22,.61,.36,1) infinite;
+        animation:terra 8s cubic-bezier(.22,.61,.36,1) infinite;
         text-shadow:0 2px 3px rgba(0,0,0,.45);
       }
 
@@ -104,7 +104,7 @@
         );
         transform:skewX(-20deg);
         opacity:0;
-        animation:shine 10s infinite;
+        animation:shine 8s infinite;
       }
 
       /* TEXT ANIMATION */
