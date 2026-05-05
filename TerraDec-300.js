@@ -72,7 +72,7 @@
         opacity:0;
         transform:scale(4.5);
         transform-origin:left center;
-        animation:terra 10s cubic-bezier(.2,.7,.2,1) infinite;
+        animation:terra 10s cubic-bezier(.12,.72,.18,1) infinite;
         text-shadow:0 2px 3px rgba(0,0,0,.45);
       }
 
@@ -126,49 +126,49 @@
       }
 
       @keyframes terra{
-        0%,35%{
-          opacity:0;
-          transform:scale(4.5);
-        }
+  0%,35%{
+    opacity:0;
+    transform:scale(4.5);
+  }
 
-        /* langsom ind */
-        60%{
-          opacity:1;
-          transform:scale(1);
-        }
+  /* langsom ind */
+  64%{
+    opacity:1;
+    transform:scale(1);
+  }
 
-        /* står sammen med resten */
-        60%,70%{
-          opacity:1;
-          transform:scale(1);
-        }
+  /* står sammen med resten */
+  64%,74%{
+    opacity:1;
+    transform:scale(1);
+  }
 
-        /* står alene */
-        78%,88%{
-          opacity:1;
-          transform:scale(1);
-        }
+  /* står alene */
+  80%,90%{
+    opacity:1;
+    transform:scale(1);
+  }
 
-        /* rolig zoom ud */
-        100%{
-          opacity:0;
-          transform:scale(3);
-        }
-      }
-
+  /* rolig fade */
+  100%{
+    opacity:0;
+    transform:scale(1);
+  }
+}
+       
       @keyframes shine{
-        0%,90%{
-          left:-40px;
-          opacity:0;
-        }
+  0%,92%{
+    left:-40px;
+    opacity:0;
+  }
 
-        94%{
-          opacity:1;
-        }
+  96%{
+    opacity:1;
+  }
 
-        100%{
-          left:110px;
-          opacity:0;
+  100%{
+    left:110px;
+    opacity:0;
         }
       }
     </style>
