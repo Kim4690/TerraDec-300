@@ -5,14 +5,17 @@
 
   var banner = document.createElement("div");
   banner.style.cssText = `
-    width:300px;
-    height:250px;
-    position:relative;
-    overflow:hidden;
-    font-family:Arial,sans-serif;
-    cursor:pointer;
-    background:url('${base}bg.jpg') center/cover no-repeat;
-  `;
+  width:100%;
+  max-width:300px;
+  aspect-ratio:300 / 250;
+  display:block;
+  box-sizing:border-box;
+  position:relative;
+  overflow:hidden;
+  font-family:Arial,sans-serif;
+  cursor:pointer;
+  background:url('${base}bg.jpg') center/cover no-repeat;
+`;
 
   banner.onclick = function () {
     window.open(
