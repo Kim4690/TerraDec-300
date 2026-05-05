@@ -66,17 +66,17 @@
         animation:terra 8s cubic-bezier(.22,.61,.36,1) infinite;
       }
 
-      .td-logo{
+     .td-logo{
   position:absolute;
-  right:12px;
-  bottom:-6px;
-  width:120px;
+  right:4px;
+  bottom:0;
+  width:135px;
   line-height:0;
 }
 
 .td-logo img{
   display:block;
-  width:150%;
+  width:100%;
   height:auto;
 }
 
