@@ -37,7 +37,7 @@
       }
 
       .td1{ top:80px; font-size:26px; animation:t1 8s infinite; }
-      .td2{ top:110px; font-size:26px; animation:t2 8s infinite; }
+      .td2{ top:105px; font-size:26px; animation:t2 8s infinite; }
 
       .td-line{
         position:absolute;
