@@ -39,13 +39,13 @@
       .td1{
         top:80px;
         font-size:26px;
-        animation:t1 8s infinite;
+        animation:t1 10s infinite;
       }
 
       .td2{
         top:110px;
         font-size:26px;
-        animation:t2 8s infinite;
+        animation:t2 10s infinite;
       }
 
       .td-line{
@@ -62,7 +62,7 @@
         font-weight:700;
         color:#fff;
         opacity:0;
-        animation:med 8s infinite;
+        animation:med 10s infinite;
       }
 
       .td-terra{
@@ -70,9 +70,9 @@
         font-weight:900;
         color:#e52521;
         opacity:0;
-        transform:scale(3);
+        transform:scale(5);
         transform-origin:left center;
-        animation:terra 8s cubic-bezier(.22,.61,.36,1) infinite;
+        animation:terra 10s cubic-bezier(.18,.8,.22,1) infinite;
         text-shadow:0 2px 3px rgba(0,0,0,.45);
       }
 
@@ -104,70 +104,55 @@
         );
         transform:skewX(-20deg);
         opacity:0;
-        animation:shine 8s infinite;
+        animation:shine 10s infinite;
       }
 
-      /* TEXT ANIMATION */
       @keyframes t1{
-        0%,8%{
-          opacity:0;
-        }
-        14%,78%{
-          opacity:1;
-        }
-        100%{
-          opacity:0;
-        }
+        0%,8%{opacity:0}
+        14%,58%{opacity:1}
+        66%,100%{opacity:0}
       }
 
       @keyframes t2{
-        0%,22%{
-          opacity:0;
-        }
-        30%,78%{
-          opacity:1;
-        }
-        100%{
-          opacity:0;
-        }
+        0%,22%{opacity:0}
+        30%,58%{opacity:1}
+        66%,100%{opacity:0}
       }
 
       @keyframes med{
-        0%,38%{
-          opacity:0;
-        }
-        46%,78%{
-          opacity:1;
-        }
-        100%{
-          opacity:0;
-        }
+        0%,38%{opacity:0}
+        46%,58%{opacity:1}
+        66%,100%{opacity:0}
       }
 
       @keyframes terra{
-        0%,42%{
+        0%,40%{
           opacity:0;
-          transform:scale(3);
+          transform:scale(5);
         }
 
-        60%,78%{
+        65%{
           opacity:1;
           transform:scale(1);
         }
 
-        100%{
+        82%{
+          opacity:1;
+          transform:scale(1);
+        }
+
+        92%,100%{
           opacity:0;
           transform:scale(1);
         }
       }
 
-      /* LOGO SHINE */
       @keyframes shine{
-        0%,86%{
+        0%,90%{
           left:-40px;
           opacity:0;
         }
-        90%{
+        94%{
           opacity:1;
         }
         100%{
