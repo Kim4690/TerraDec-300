@@ -57,8 +57,8 @@
       }
 
       .td-terra{
-        font-size:35px;
-        font-weight:700;
+        font-size:32px;
+        font-weight:800;
         color:#e52521;
         opacity:0;
         transform:scale(3);
