@@ -74,7 +74,7 @@
       }
 
       .td-logo img{
-        width:100%;
+        width:130%;
         display:block;
       }
 
