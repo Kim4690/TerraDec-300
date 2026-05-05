@@ -1,5 +1,8 @@
 (function () {
-  document.write(`
+
+  var wrap = document.createElement("div");
+
+  wrap.innerHTML = `
     <div onclick="window.open('https://www.fischerdanmark.dk/','_blank')"
       style="
         width:100%;
@@ -54,5 +57,11 @@
         </div>
       </div>
     </div>
-  `);
+  `;
+
+  document.currentScript.parentNode.insertBefore(
+    wrap.firstElementChild,
+    document.currentScript
+  );
+
 })();
