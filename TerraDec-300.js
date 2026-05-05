@@ -37,12 +37,12 @@
       }
 
       .td1{ top:70px; font-size:26px; animation:t1 8s infinite; }
-      .td2{ top:118px; font-size:26px; animation:t2 8s infinite; }
+      .td2{ top:108px; font-size:26px; animation:t2 8s infinite; }
 
       .td-line{
         position:absolute;
         left:10px;
-        top:166px;
+        top:156px;
         display:flex;
         align-items:baseline;
         gap:6px;
@@ -58,7 +58,7 @@
 
       .td-terra{
         font-size:32px;
-        font-weight:800;
+        font-weight:750;
         color:#e52521;
         opacity:0;
         transform:scale(3);
