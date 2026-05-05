@@ -123,7 +123,7 @@
     </div>
 
     <div class="td-logo">
-      <img src="${base}fischer-logo.png">
+      <img src="${base}fischer logo - transp.png">
       <div class="td-shine"></div>
     </div>
   `;
