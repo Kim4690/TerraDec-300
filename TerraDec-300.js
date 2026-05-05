@@ -60,6 +60,7 @@
         font-size:32px;
         font-weight:750;
         color:#e52521;
+        -webkit-text-stroke: 1px #fff;
         opacity:0;
         transform:scale(3);
         transform-origin:left center;
