@@ -65,6 +65,9 @@
   transform:scale(3);
   transform-origin:left center;
   animation:terra 8s cubic-bezier(.22,.61,.36,1) infinite;
+  text-shadow:
+  0 1px 0 rgba(255,255,255,.18),
+  0 2px 6px rgba(0,0,0,.25);
 }
 
      .td-logo{
