@@ -72,7 +72,7 @@
         opacity:0;
         transform:scale(3);
         transform-origin:left center;
-        animation:terra 8s cubic-bezier(.22,.61,.36,1) infinite;
+        animation:terra 10s cubic-bezier(.22,.61,.36,1) infinite;
         text-shadow:0 2px 3px rgba(0,0,0,.45);
       }
 
