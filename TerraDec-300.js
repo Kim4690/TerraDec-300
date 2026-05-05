@@ -33,13 +33,13 @@
         opacity:0;
       }
 
-      .td1{ top:48px; font-size:26px; animation:t1 8s infinite; }
-      .td2{ top:92px; font-size:26px; animation:t2 8s infinite; }
+      .td1{ top:60px; font-size:26px; animation:t1 8s infinite; }
+      .td2{ top:108px; font-size:26px; animation:t2 8s infinite; }
 
       .td-line{
         position:absolute;
         left:10px;
-        top:136px;
+        top:156px;
         display:flex;
         align-items:baseline;
         gap:6px;
