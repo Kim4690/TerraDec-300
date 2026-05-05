@@ -125,7 +125,7 @@
     </div>
 
     <div class="td-logo">
-      <img src="${base}fischer logo - transp.png">
+      <img src="${base}fischer-logo-transp.png">
       <div class="td-shine"></div>
     </div>
   `;
