@@ -42,7 +42,7 @@
       .td-line{
         position:absolute;
         left:10px;
-        top:140px;
+        top:150px;
         display:flex;
         align-items:baseline;
         gap:6px;
