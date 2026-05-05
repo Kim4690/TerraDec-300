@@ -70,9 +70,9 @@
         font-weight:900;
         color:#e52521;
         opacity:0;
-        transform:scale(5);
+        transform:scale(4.5);
         transform-origin:left center;
-        animation:terra 10s cubic-bezier(.12,.72,.18,1) infinite;
+        animation:terra 10s cubic-bezier(.2,.7,.2,1) infinite;
         text-shadow:0 2px 3px rgba(0,0,0,.45);
       }
 
@@ -107,91 +107,70 @@
         animation:shine 10s infinite;
       }
 
-      /* 1. linje */
-@keyframes t1{
-  0%,8%{
-    opacity:0;
-  }
-  14%,68%{
-    opacity:1;
-  }
-  76%,100%{
-    opacity:0;
-  }
-}
+      @keyframes t1{
+        0%,8%{opacity:0;}
+        14%,68%{opacity:1;}
+        76%,100%{opacity:0;}
+      }
 
-/* 2. linje */
-@keyframes t2{
-  0%,20%{
-    opacity:0;
-  }
-  28%,68%{
-    opacity:1;
-  }
-  76%,100%{
-    opacity:0;
-  }
-}
+      @keyframes t2{
+        0%,20%{opacity:0;}
+        28%,68%{opacity:1;}
+        76%,100%{opacity:0;}
+      }
 
-/* "med" */
-@keyframes med{
-  0%,34%{
-    opacity:0;
-  }
-  42%,68%{
-    opacity:1;
-  }
-  76%,100%{
-    opacity:0;
-  }
-}
+      @keyframes med{
+        0%,30%{opacity:0;}
+        36%,68%{opacity:1;}
+        76%,100%{opacity:0;}
+      }
 
-/* TerraDec */
-@keyframes terra{
-  0%,30%{
-    opacity:0;
-    transform:scale(6);
-  }
+      @keyframes terra{
+        0%,35%{
+          opacity:0;
+          transform:scale(4.5);
+        }
 
-  58%{
-    opacity:1;
-    transform:scale(1);
-  }
+        /* langsom ind */
+        60%{
+          opacity:1;
+          transform:scale(1);
+        }
 
-  /* står sammen med de andre */
-  58%,68%{
-    opacity:1;
-    transform:scale(1);
-  }
+        /* står sammen med resten */
+        60%,70%{
+          opacity:1;
+          transform:scale(1);
+        }
 
-  /* står alene */
-  76%,88%{
-    opacity:1;
-    transform:scale(1);
-  }
+        /* står alene */
+        78%,88%{
+          opacity:1;
+          transform:scale(1);
+        }
 
-  100%{
-    opacity:0;
-    transform:scale(1);
-  }
-}
+        /* rolig zoom ud */
+        100%{
+          opacity:0;
+          transform:scale(3);
+        }
+      }
 
-/* shine bagefter */
-@keyframes shine{
-  0%,90%{
-    left:-40px;
-    opacity:0;
-  }
+      @keyframes shine{
+        0%,90%{
+          left:-40px;
+          opacity:0;
+        }
 
-  94%{
-    opacity:1;
-  }
+        94%{
+          opacity:1;
+        }
 
-  100%{
-    left:110px;
-    opacity:0;
-  }
-}
+        100%{
+          left:110px;
+          opacity:0;
+        }
+      }
     </style>
 
     <div class="td-t td1">Forlæng levetiden</div>
