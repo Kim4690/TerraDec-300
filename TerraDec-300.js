@@ -69,12 +69,12 @@
       .td-logo{
         position:absolute;
         right:8px;
-        bottom:8px;
-        width:95px;
+        bottom:3px;
+        width:80px;
       }
 
       .td-logo img{
-        width:130%;
+        width:150%;
         display:block;
       }
 
