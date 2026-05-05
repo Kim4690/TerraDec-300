@@ -70,13 +70,13 @@
   position:absolute;
   right:6px;
   bottom:-2px;
-  width:200px;
+  width:120px;
   line-height:0;
 }
 
 .td-logo img{
   display:block;
-  width:100%;
+  width:150%;
   height:auto;
 }
 
