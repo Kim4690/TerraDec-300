@@ -57,15 +57,15 @@
       }
 
       .td-terra{
-        font-size:32px;
-        font-weight:750;
-        color:#e52521;
-        -webkit-text-stroke: 1px #fff;
-        opacity:0;
-        transform:scale(3);
-        transform-origin:left center;
-        animation:terra 8s cubic-bezier(.22,.61,.36,1) infinite;
-      }
+  font-size:32px;
+  font-weight:800;
+  color:#e52521;
+  text-shadow:0 2px 8px rgba(0,0,0,.28);
+  opacity:0;
+  transform:scale(3);
+  transform-origin:left center;
+  animation:terra 8s cubic-bezier(.22,.61,.36,1) infinite;
+}
 
      .td-logo{
   position:absolute;
