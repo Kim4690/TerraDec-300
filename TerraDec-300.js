@@ -69,8 +69,8 @@
      .td-logo{
   position:absolute;
   right:2px;
-  bottom:-6px;
-  width:175px;
+  bottom:-8px;
+  width:185px;
   line-height:0;
 }
 
