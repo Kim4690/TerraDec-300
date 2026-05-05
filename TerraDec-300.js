@@ -67,16 +67,18 @@
       }
 
       .td-logo{
-        position:absolute;
-        right:100px;
-        bottom:3px;
-        width:100px;
-      }
+  position:absolute;
+  right:6px;
+  bottom:2px;
+  width:120px;
+  line-height:0;
+}
 
-      .td-logo img{
-        width:200%;
-        display:block;
-      }
+.td-logo img{
+  display:block;
+  width:100%;
+  height:auto;
+}
 
       .td-shine{
         position:absolute;
