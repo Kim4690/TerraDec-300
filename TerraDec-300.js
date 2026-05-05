@@ -56,18 +56,16 @@
         animation:med 8s infinite;
       }
 
-   .td-terra{
-  font-size:32px;
-  font-weight:800;
+  .td-terra{
+  font-size:33px;
+  font-weight:900;
   color:#e52521;
   opacity:0;
   transform:scale(3);
   transform-origin:left center;
   animation:terra 8s cubic-bezier(.22,.61,.36,1) infinite;
 
-  text-shadow:
-    0 0 6px rgba(255,255,255,.18),
-    0 2px 10px rgba(0,0,0,.45);
+  text-shadow: 0 2px 3px rgba(0,0,0,.45);
 }
 
      .td-logo{
